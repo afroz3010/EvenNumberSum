@@ -7,23 +7,27 @@ Setup Instructions
 ## 1. Clone the Repository
   Clone the project from your remote repository
 
-  git clone https://github.com/your-username/EvenNumber.git
-  cd EvenNumber
+  `git clone [https://github.com/your-username/EvenNumber.git](https://github.com/afroz3010/EvenNumberSum.git) `
+  
+  `cd EvenNumberSum`
 
-Replace https://github.com/your-username/EvenNumber.git with your repository URL.
 ## 2. Install Dependencies
 Backend (API)
 Navigate to the backend folder and restore .NET dependencies:
 
 ` cd API `
+
 ` dotnet restore `
+
 ` cd .. `
 
 Frontend (client)
 Navigate to the frontend folder and install Node.js dependencies:
 
-`cd client`
+`cd Client`
+
 `npm install`
+
 `cd ..`
 
 Root
