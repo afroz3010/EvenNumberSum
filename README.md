@@ -7,7 +7,7 @@ Setup Instructions
 ## 1. Clone the Repository
   Clone the project from your remote repository
 
-  `git clone [https://github.com/your-username/EvenNumber.git](https://github.com/afroz3010/EvenNumberSum.git) `
+  `git clone https://github.com/afroz3010/EvenNumberSum.git `
   
   `cd EvenNumberSum`
 
