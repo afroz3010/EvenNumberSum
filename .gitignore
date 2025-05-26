@@ -1,0 +1,17 @@
+     # Angular
+     Client/node_modules/
+     Client/dist/
+     Client/.angular/
+     Client/.vscode/
+     Client/*.log
+
+     # .NET Core
+     API/bin/
+     API/obj/
+     API/*.csproj.user
+     API/*.log
+
+     # Root
+     node_modules/
+     *.log
+     ```

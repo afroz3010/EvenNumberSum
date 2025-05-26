@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Sum of Even Numbers</h1>
+  <div class="form-group">
+    <label for="numbers">Enter numbers (comma-separated):</label>
+    <input type="text" id="numbers" [(ngModel)]="inputNumbers" placeholder="e.g., 1,2,3,4" class="form-control">
+    <button (click)="calculateSum()" class="btn btn-primary">Calculate</button>
+  </div>
+  <div *ngIf="result !== null" class="result">
+    <p>Sum of even numbers: {{ result }}</p>
+  </div>
+  <div *ngIf="error" class="error">
+    <p>{{ error }}</p>
+  </div>
+</div>
